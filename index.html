@@ -27,7 +27,7 @@
     <div class="header-cta">
       <a class="btn btn-ghost" href="#lang">KO ▾</a>
       <a class="btn btn-primary" href="#book">Book now
-        <span class="arrow" aria-hidden="true"></span>
+        <span><i class="fa-solid fa-arrow-right"></i></span>
       </a>
     </div>
   </div>
@@ -84,6 +84,10 @@
   <section id="see-do" class="strip">
     <div class="strip_txt">
       <h3>전체일정</h3>
+      <a href="#none">전시</a>
+      <a href="#none">행사</a>
+      <a href="#none">상설</a>
+      <a href="#none">버스킹</a>
       <p>새롭고 다양한 경험을 해보세요.</p>
     </div>
   <div class="grid_cards">
@@ -164,41 +168,48 @@
     </div>
   </section>
 
-  
+  <!--공지사항 -->
+    <section class="notice">
+  <div class="container">
+    <div class="notice-title">공지사항</div>
 
-  <!-- 이벤트 / 플랜 -->
-  <section id="events" class="duo">
-    <div class="container duo-wrap">
-      <div class="panel">
-        <h2>What’s on</h2>
-        <div class="stack-cards">
-          <article class="mini">
-            <img src="image/event-1.jpg" alt="">
-            <div><h3>Summer Festival</h3><p>8.12 – 9.10</p></div>
-          </article>
+    <!-- 공지 리스트 -->
+    <ul class="notice-list">
+      <li class="notice-item">
+        <span class="chip">일반공지</span>
+        <div class="notice-row">
+          <div class="datebox">
+            <strong class="y">2025</strong>
+            <span class="md">08.25</span>
+          </div>
+          <div class="excerpt"><p>종합안내소 임시 이전운영 안내</p></div>
         </div>
-      </div>
-      <div class="panel">
-        <h2>Plan your trip</h2>
-        <ul class="bullets">
-          <li><a href="#stay">Where to stay</a></li>
-          <li><a href="#getting-here">Getting here</a></li>
-        </ul>
-      </div>
-    </div>
-  </section>
+      </li>
 
-  <!-- 갤러리 -->
-  <section id="inspiration" class="masonry">
-    <div class="container">
-      <h2 class="section-title">공지사항</h2>
-    </div>
-    <div class="masonry-rail">
-      <img src="image/ins-1.jpg" alt="">
-      <img src="image/ins-2.jpg" alt="">
-      <img src="image/ins-3.jpg" alt="">
-    </div>
-  </section>
+      <li class="notice-item">
+        <span class="chip">취업공지</span>
+        <div class="notice-row">
+          <div class="datebox">
+            <strong class="y">2025</strong>
+            <span class="md">08.26</span>
+          </div>
+          <div class="excerpt"><p>2025년 하반기직원 채용 공고</p></div>
+        </div>
+      </li>
+
+      <li class="notice-item">
+        <span class="chip">일반공지</span>
+        <div class="notice-row">
+          <div class="datebox">
+            <strong class="y">2025</strong>
+            <span class="md">08.24</span>
+          </div>
+          <div class="excerpt"><p>DDP우선협상대상자 발표</p></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
 
   <!-- 푸터 -->
   <footer class="site-footer">
